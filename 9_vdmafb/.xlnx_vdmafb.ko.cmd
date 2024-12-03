@@ -1,0 +1,1 @@
+cmd_/home/lvd/workspace/drivers/9_vdmafb/xlnx_vdmafb.ko := aarch64-xilinx-linux-ld -r  -EL  -maarch64elf -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o /home/lvd/workspace/drivers/9_vdmafb/xlnx_vdmafb.ko /home/lvd/workspace/drivers/9_vdmafb/xlnx_vdmafb.o /home/lvd/workspace/drivers/9_vdmafb/xlnx_vdmafb.mod.o ;  true

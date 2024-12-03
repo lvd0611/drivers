@@ -1,0 +1,1 @@
+cmd_/home/lvd/workspace/drivers/12_iic/iic.ko := aarch64-xilinx-linux-ld -r  -EL  -maarch64elf -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o /home/lvd/workspace/drivers/12_iic/iic.ko /home/lvd/workspace/drivers/12_iic/iic.o /home/lvd/workspace/drivers/12_iic/iic.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_/home/lvd/workspace/drivers/11_axi_gpio/axi_gpio.ko := aarch64-xilinx-linux-ld -r  -EL  -maarch64elf -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o /home/lvd/workspace/drivers/11_axi_gpio/axi_gpio.ko /home/lvd/workspace/drivers/11_axi_gpio/axi_gpio.o /home/lvd/workspace/drivers/11_axi_gpio/axi_gpio.mod.o ;  true

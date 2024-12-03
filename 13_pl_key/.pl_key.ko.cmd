@@ -1,0 +1,1 @@
+cmd_/home/lvd/workspace/drivers/13_pl_key/pl_key.ko := aarch64-xilinx-linux-ld -r  -EL  -maarch64elf -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o /home/lvd/workspace/drivers/13_pl_key/pl_key.ko /home/lvd/workspace/drivers/13_pl_key/pl_key.o /home/lvd/workspace/drivers/13_pl_key/pl_key.mod.o ;  true

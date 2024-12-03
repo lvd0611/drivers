@@ -1,0 +1,1 @@
+cmd_/home/lvd/workspace/drivers/7_tree-led/led.ko := aarch64-xilinx-linux-ld -r  -EL  -maarch64elf -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o /home/lvd/workspace/drivers/7_tree-led/led.ko /home/lvd/workspace/drivers/7_tree-led/led.o /home/lvd/workspace/drivers/7_tree-led/led.mod.o ;  true

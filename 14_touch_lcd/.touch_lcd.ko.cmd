@@ -1,0 +1,1 @@
+cmd_/home/lvd/workspace/drivers/14_touch_lcd/touch_lcd.ko := aarch64-xilinx-linux-ld -r  -EL  -maarch64elf -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o /home/lvd/workspace/drivers/14_touch_lcd/touch_lcd.ko /home/lvd/workspace/drivers/14_touch_lcd/touch_lcd.o /home/lvd/workspace/drivers/14_touch_lcd/touch_lcd.mod.o ;  true

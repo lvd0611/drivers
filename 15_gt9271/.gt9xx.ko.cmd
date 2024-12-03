@@ -1,0 +1,1 @@
+cmd_/home/lvd/workspace/drivers/15_gt9271/gt9xx.ko := aarch64-xilinx-linux-ld -r  -EL  -maarch64elf -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o /home/lvd/workspace/drivers/15_gt9271/gt9xx.ko /home/lvd/workspace/drivers/15_gt9271/gt9xx.o /home/lvd/workspace/drivers/15_gt9271/gt9xx.mod.o ;  true
