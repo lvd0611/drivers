@@ -277,7 +277,6 @@ static irqreturn_t gt9271_thread_isr(int irq , void *dev_id)
         if (!tdev->pre_state[id]) {
         // 如果之前没有触摸，表示这是一个新的触摸开始
             input_event(tdev->input, EV_KEY, BTN_TOUCH, 1); // 按下事件
-            printk("id = %d , x = %d, y = %d\n", id,x, y);
         }
         
     }
@@ -363,6 +362,7 @@ static int gt9271_probe(struct i2c_client *client, const struct i2c_device_id *i
     input_set_capability(input, EV_KEY, BTN_TOUCH); // 启用 BTN_TOUCH 按钮事件
 
     /*设置触摸屏支持的事件类型*/
+
     input_set_abs_params(input, ABS_MT_POSITION_X, 0, gt9271_chip_data.max_x, 0, 0);
     input_set_abs_params(input, ABS_MT_POSITION_Y, 0, gt9271_chip_data.max_y, 0, 0);
 
